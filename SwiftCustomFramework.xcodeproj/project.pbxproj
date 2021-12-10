@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60912190B1E53DB12CF4F4EE /* Pods_SwiftCustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13AE16A55D3353F1BE2498D /* Pods_SwiftCustomFramework.framework */; };
+		759C69B87324B47CCBAE08F3 /* Pods_SwiftCustomFramework_SwiftCustomFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564F805B13A84751C24E9CB5 /* Pods_SwiftCustomFramework_SwiftCustomFrameworkTests.framework */; };
 		E7EC0A622761013800D652A8 /* SwiftCustomFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = E7EC0A612761013800D652A8 /* SwiftCustomFramework.docc */; };
 		E7EC0A682761013800D652A8 /* SwiftCustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EC0A5D2761013800D652A8 /* SwiftCustomFramework.framework */; };
 		E7EC0A6D2761013800D652A8 /* SwiftCustomFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EC0A6C2761013800D652A8 /* SwiftCustomFrameworkTests.swift */; };
@@ -24,11 +26,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037991526BA7D2931F2EF75F /* Pods-SwiftCustomFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCustomFramework.release.xcconfig"; path = "Target Support Files/Pods-SwiftCustomFramework/Pods-SwiftCustomFramework.release.xcconfig"; sourceTree = "<group>"; };
+		564F805B13A84751C24E9CB5 /* Pods_SwiftCustomFramework_SwiftCustomFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCustomFramework_SwiftCustomFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E7DCDBF03933B3AE43DA89 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftCustomFramework-SwiftCustomFrameworkTests/Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		C76CF69EF5956AD26D1F8E78 /* Pods-SwiftCustomFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCustomFramework.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCustomFramework/Pods-SwiftCustomFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		C8EAEB5784EA7A3D2B6A6A16 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCustomFramework-SwiftCustomFrameworkTests/Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7EC0A5D2761013800D652A8 /* SwiftCustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EC0A602761013800D652A8 /* SwiftCustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCustomFramework.h; sourceTree = "<group>"; };
 		E7EC0A612761013800D652A8 /* SwiftCustomFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftCustomFramework.docc; sourceTree = "<group>"; };
 		E7EC0A672761013800D652A8 /* SwiftCustomFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCustomFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EC0A6C2761013800D652A8 /* SwiftCustomFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCustomFrameworkTests.swift; sourceTree = "<group>"; };
+		F13AE16A55D3353F1BE2498D /* Pods_SwiftCustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60912190B1E53DB12CF4F4EE /* Pods_SwiftCustomFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7EC0A682761013800D652A8 /* SwiftCustomFramework.framework in Frameworks */,
+				759C69B87324B47CCBAE08F3 /* Pods_SwiftCustomFramework_SwiftCustomFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B22D47E35406C5B7F519AE82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C76CF69EF5956AD26D1F8E78 /* Pods-SwiftCustomFramework.debug.xcconfig */,
+				037991526BA7D2931F2EF75F /* Pods-SwiftCustomFramework.release.xcconfig */,
+				C8EAEB5784EA7A3D2B6A6A16 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.debug.xcconfig */,
+				76E7DCDBF03933B3AE43DA89 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E7EC0A532761013800D652A8 = {
 			isa = PBXGroup;
 			children = (
 				E7EC0A5F2761013800D652A8 /* SwiftCustomFramework */,
 				E7EC0A6B2761013800D652A8 /* SwiftCustomFrameworkTests */,
 				E7EC0A5E2761013800D652A8 /* Products */,
+				B22D47E35406C5B7F519AE82 /* Pods */,
+				EA9A12A125993132EBACA325 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +109,15 @@
 			path = SwiftCustomFrameworkTests;
 			sourceTree = "<group>";
 		};
+		EA9A12A125993132EBACA325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F13AE16A55D3353F1BE2498D /* Pods_SwiftCustomFramework.framework */,
+				564F805B13A84751C24E9CB5 /* Pods_SwiftCustomFramework_SwiftCustomFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -103,6 +136,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7EC0A712761013800D652A8 /* Build configuration list for PBXNativeTarget "SwiftCustomFramework" */;
 			buildPhases = (
+				54AC499E8862AB449CF1B5B2 /* [CP] Check Pods Manifest.lock */,
 				E7EC0A582761013800D652A8 /* Headers */,
 				E7EC0A592761013800D652A8 /* Sources */,
 				E7EC0A5A2761013800D652A8 /* Frameworks */,
@@ -121,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7EC0A742761013800D652A8 /* Build configuration list for PBXNativeTarget "SwiftCustomFrameworkTests" */;
 			buildPhases = (
+				F765A035AB043F74456745B4 /* [CP] Check Pods Manifest.lock */,
 				E7EC0A632761013800D652A8 /* Sources */,
 				E7EC0A642761013800D652A8 /* Frameworks */,
 				E7EC0A652761013800D652A8 /* Resources */,
@@ -188,6 +223,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54AC499E8862AB449CF1B5B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCustomFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F765A035AB043F74456745B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCustomFramework-SwiftCustomFrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7EC0A592761013800D652A8 /* Sources */ = {
@@ -341,6 +423,7 @@
 		};
 		E7EC0A722761013800D652A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76CF69EF5956AD26D1F8E78 /* Pods-SwiftCustomFramework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -369,6 +452,7 @@
 		};
 		E7EC0A732761013800D652A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037991526BA7D2931F2EF75F /* Pods-SwiftCustomFramework.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -397,6 +481,7 @@
 		};
 		E7EC0A752761013800D652A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EAEB5784EA7A3D2B6A6A16 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -418,6 +503,7 @@
 		};
 		E7EC0A762761013800D652A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E7DCDBF03933B3AE43DA89 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

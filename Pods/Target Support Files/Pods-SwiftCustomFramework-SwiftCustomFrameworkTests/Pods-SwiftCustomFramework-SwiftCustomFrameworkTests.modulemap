@@ -1,0 +1,6 @@
+framework module Pods_SwiftCustomFramework_SwiftCustomFrameworkTests {
+  umbrella header "Pods-SwiftCustomFramework-SwiftCustomFrameworkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

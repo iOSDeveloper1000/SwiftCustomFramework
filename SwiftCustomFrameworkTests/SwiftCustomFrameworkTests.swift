@@ -2,7 +2,8 @@
 //  SwiftCustomFrameworkTests.swift
 //  SwiftCustomFrameworkTests
 //
-//  Created by Arno Seidel on 08.12.21.
+//  Created by Arno Seidel on 10.12.2021.
+//  Copyright © 2021 Arno Seidel. All rights reserved.
 //
 
 import XCTest

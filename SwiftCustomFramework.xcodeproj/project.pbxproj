@@ -3,12 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		60912190B1E53DB12CF4F4EE /* Pods_SwiftCustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13AE16A55D3353F1BE2498D /* Pods_SwiftCustomFramework.framework */; };
 		759C69B87324B47CCBAE08F3 /* Pods_SwiftCustomFramework_SwiftCustomFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564F805B13A84751C24E9CB5 /* Pods_SwiftCustomFramework_SwiftCustomFrameworkTests.framework */; };
+		E7A7F8D72763A3C0001F777F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8C32763A3C0001F777F /* UIView.swift */; };
+		E7A7F8D82763A3C0001F777F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8C42763A3C0001F777F /* UIViewController.swift */; };
+		E7A7F8D92763A3C0001F777F /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8C52763A3C0001F777F /* UIScreen.swift */; };
+		E7A7F8DA2763A3C0001F777F /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8C62763A3C0001F777F /* UIAlertController.swift */; };
+		E7A7F8DB2763A3C0001F777F /* BasicTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8C72763A3C0001F777F /* BasicTypes.swift */; };
+		E7A7F8DC2763A3C0001F777F /* LocalNotifyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8C92763A3C0001F777F /* LocalNotifyHandler.swift */; };
+		E7A7F8DD2763A3C0001F777F /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8CA2763A3C0001F777F /* Notification.swift */; };
+		E7A7F8DE2763A3C0001F777F /* SwiftDocumentationTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8CB2763A3C0001F777F /* SwiftDocumentationTemplate.swift */; };
+		E7A7F8DF2763A3C0001F777F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8CD2763A3C0001F777F /* Operators.swift */; };
+		E7A7F8E02763A3C0001F777F /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8CE2763A3C0001F777F /* Types.swift */; };
+		E7A7F8E12763A3C0001F777F /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8CF2763A3C0001F777F /* Debugging.swift */; };
+		E7A7F8E22763A3C0001F777F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8D52763A3C0001F777F /* DataController.swift */; };
+		E7A7F8E32763A3C0001F777F /* NSAttributedStringTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8D62763A3C0001F777F /* NSAttributedStringTransformer.swift */; };
 		E7EC0A622761013800D652A8 /* SwiftCustomFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = E7EC0A612761013800D652A8 /* SwiftCustomFramework.docc */; };
 		E7EC0A682761013800D652A8 /* SwiftCustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EC0A5D2761013800D652A8 /* SwiftCustomFramework.framework */; };
 		E7EC0A6D2761013800D652A8 /* SwiftCustomFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EC0A6C2761013800D652A8 /* SwiftCustomFrameworkTests.swift */; };
@@ -31,6 +44,19 @@
 		76E7DCDBF03933B3AE43DA89 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftCustomFramework-SwiftCustomFrameworkTests/Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		C76CF69EF5956AD26D1F8E78 /* Pods-SwiftCustomFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCustomFramework.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCustomFramework/Pods-SwiftCustomFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		C8EAEB5784EA7A3D2B6A6A16 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCustomFramework-SwiftCustomFrameworkTests/Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7A7F8C32763A3C0001F777F /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E7A7F8C42763A3C0001F777F /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		E7A7F8C52763A3C0001F777F /* UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		E7A7F8C62763A3C0001F777F /* UIAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		E7A7F8C72763A3C0001F777F /* BasicTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTypes.swift; sourceTree = "<group>"; };
+		E7A7F8C92763A3C0001F777F /* LocalNotifyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotifyHandler.swift; sourceTree = "<group>"; };
+		E7A7F8CA2763A3C0001F777F /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		E7A7F8CB2763A3C0001F777F /* SwiftDocumentationTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDocumentationTemplate.swift; sourceTree = "<group>"; };
+		E7A7F8CD2763A3C0001F777F /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		E7A7F8CE2763A3C0001F777F /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		E7A7F8CF2763A3C0001F777F /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		E7A7F8D52763A3C0001F777F /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		E7A7F8D62763A3C0001F777F /* NSAttributedStringTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringTransformer.swift; sourceTree = "<group>"; };
 		E7EC0A5D2761013800D652A8 /* SwiftCustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EC0A602761013800D652A8 /* SwiftCustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCustomFramework.h; sourceTree = "<group>"; };
 		E7EC0A612761013800D652A8 /* SwiftCustomFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftCustomFramework.docc; sourceTree = "<group>"; };
@@ -68,8 +94,95 @@
 				C8EAEB5784EA7A3D2B6A6A16 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.debug.xcconfig */,
 				76E7DCDBF03933B3AE43DA89 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7A7F8C02763A3C0001F777F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E7A7F8C12763A3C0001F777F /* Extension */,
+				E7A7F8C82763A3C0001F777F /* Notification */,
+				E7A7F8CB2763A3C0001F777F /* SwiftDocumentationTemplate.swift */,
+				E7A7F8CC2763A3C0001F777F /* Custom */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E7A7F8C12763A3C0001F777F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E7A7F8C22763A3C0001F777F /* UIKit */,
+				E7A7F8C72763A3C0001F777F /* BasicTypes.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E7A7F8C22763A3C0001F777F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E7A7F8C32763A3C0001F777F /* UIView.swift */,
+				E7A7F8C42763A3C0001F777F /* UIViewController.swift */,
+				E7A7F8C52763A3C0001F777F /* UIScreen.swift */,
+				E7A7F8C62763A3C0001F777F /* UIAlertController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		E7A7F8C82763A3C0001F777F /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				E7A7F8C92763A3C0001F777F /* LocalNotifyHandler.swift */,
+				E7A7F8CA2763A3C0001F777F /* Notification.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		E7A7F8CC2763A3C0001F777F /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				E7A7F8CD2763A3C0001F777F /* Operators.swift */,
+				E7A7F8CE2763A3C0001F777F /* Types.swift */,
+				E7A7F8CF2763A3C0001F777F /* Debugging.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		E7A7F8D02763A3C0001F777F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7A7F8D12763A3C0001F777F /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7A7F8D12763A3C0001F777F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E7A7F8D22763A3C0001F777F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7A7F8D32763A3C0001F777F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7A7F8D42763A3C0001F777F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7A7F8D52763A3C0001F777F /* DataController.swift */,
+				E7A7F8D62763A3C0001F777F /* NSAttributedStringTransformer.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E7EC0A532761013800D652A8 = {
@@ -95,6 +208,11 @@
 		E7EC0A5F2761013800D652A8 /* SwiftCustomFramework */ = {
 			isa = PBXGroup;
 			children = (
+				E7A7F8D22763A3C0001F777F /* Controller */,
+				E7A7F8D42763A3C0001F777F /* Model */,
+				E7A7F8D32763A3C0001F777F /* Resources */,
+				E7A7F8C02763A3C0001F777F /* Utility */,
+				E7A7F8D02763A3C0001F777F /* View */,
 				E7EC0A602761013800D652A8 /* SwiftCustomFramework.h */,
 				E7EC0A612761013800D652A8 /* SwiftCustomFramework.docc */,
 			);
@@ -179,6 +297,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "Arno Seidel";
 				TargetAttributes = {
 					E7EC0A5C2761013800D652A8 = {
 						CreatedOnToolsVersion = 13.0;
@@ -189,7 +308,7 @@
 				};
 			};
 			buildConfigurationList = E7EC0A572761013800D652A8 /* Build configuration list for PBXProject "SwiftCustomFramework" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -276,7 +395,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A7F8D72763A3C0001F777F /* UIView.swift in Sources */,
+				E7A7F8DF2763A3C0001F777F /* Operators.swift in Sources */,
 				E7EC0A622761013800D652A8 /* SwiftCustomFramework.docc in Sources */,
+				E7A7F8DB2763A3C0001F777F /* BasicTypes.swift in Sources */,
+				E7A7F8DC2763A3C0001F777F /* LocalNotifyHandler.swift in Sources */,
+				E7A7F8DD2763A3C0001F777F /* Notification.swift in Sources */,
+				E7A7F8D82763A3C0001F777F /* UIViewController.swift in Sources */,
+				E7A7F8D92763A3C0001F777F /* UIScreen.swift in Sources */,
+				E7A7F8DE2763A3C0001F777F /* SwiftDocumentationTemplate.swift in Sources */,
+				E7A7F8E02763A3C0001F777F /* Types.swift in Sources */,
+				E7A7F8E12763A3C0001F777F /* Debugging.swift in Sources */,
+				E7A7F8E22763A3C0001F777F /* DataController.swift in Sources */,
+				E7A7F8DA2763A3C0001F777F /* UIAlertController.swift in Sources */,
+				E7A7F8E32763A3C0001F777F /* NSAttributedStringTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +615,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C8EAEB5784EA7A3D2B6A6A16 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FRR9MYPFMS;
@@ -505,6 +638,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76E7DCDBF03933B3AE43DA89 /* Pods-SwiftCustomFramework-SwiftCustomFrameworkTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FRR9MYPFMS;

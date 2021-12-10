@@ -1,5 +1,5 @@
 //
-//  SwiftDocumentationTemplate.swift
+//  SwiftComments.swift
 //  SwiftCustomFramework
 //
 //  Created by Arno Seidel on 10.12.2021.
@@ -14,7 +14,7 @@ import Foundation
 
  _Some more details about using a class are dicussed here._
  */
-class SwiftDocumentationTemplate {
+class SwiftComments {
 
     // MARK: - Variables
 

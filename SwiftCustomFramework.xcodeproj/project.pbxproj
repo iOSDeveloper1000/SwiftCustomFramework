@@ -16,11 +16,10 @@
 		E7A7F8DB2763A3C0001F777F /* BasicTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8C72763A3C0001F777F /* BasicTypes.swift */; };
 		E7A7F8DC2763A3C0001F777F /* LocalNotifyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8C92763A3C0001F777F /* LocalNotifyHandler.swift */; };
 		E7A7F8DD2763A3C0001F777F /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8CA2763A3C0001F777F /* Notification.swift */; };
-		E7A7F8DE2763A3C0001F777F /* SwiftDocumentationTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8CB2763A3C0001F777F /* SwiftDocumentationTemplate.swift */; };
+		E7A7F8DE2763A3C0001F777F /* SwiftComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8CB2763A3C0001F777F /* SwiftComments.swift */; };
 		E7A7F8DF2763A3C0001F777F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8CD2763A3C0001F777F /* Operators.swift */; };
 		E7A7F8E02763A3C0001F777F /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8CE2763A3C0001F777F /* Types.swift */; };
 		E7A7F8E12763A3C0001F777F /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8CF2763A3C0001F777F /* Debugging.swift */; };
-		E7A7F8E22763A3C0001F777F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8D52763A3C0001F777F /* DataController.swift */; };
 		E7A7F8E32763A3C0001F777F /* NSAttributedStringTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7F8D62763A3C0001F777F /* NSAttributedStringTransformer.swift */; };
 		E7EC0A622761013800D652A8 /* SwiftCustomFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = E7EC0A612761013800D652A8 /* SwiftCustomFramework.docc */; };
 		E7EC0A682761013800D652A8 /* SwiftCustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EC0A5D2761013800D652A8 /* SwiftCustomFramework.framework */; };
@@ -51,11 +50,10 @@
 		E7A7F8C72763A3C0001F777F /* BasicTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTypes.swift; sourceTree = "<group>"; };
 		E7A7F8C92763A3C0001F777F /* LocalNotifyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotifyHandler.swift; sourceTree = "<group>"; };
 		E7A7F8CA2763A3C0001F777F /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
-		E7A7F8CB2763A3C0001F777F /* SwiftDocumentationTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDocumentationTemplate.swift; sourceTree = "<group>"; };
+		E7A7F8CB2763A3C0001F777F /* SwiftComments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftComments.swift; sourceTree = "<group>"; };
 		E7A7F8CD2763A3C0001F777F /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		E7A7F8CE2763A3C0001F777F /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		E7A7F8CF2763A3C0001F777F /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
-		E7A7F8D52763A3C0001F777F /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		E7A7F8D62763A3C0001F777F /* NSAttributedStringTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringTransformer.swift; sourceTree = "<group>"; };
 		E7EC0A5D2761013800D652A8 /* SwiftCustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EC0A602761013800D652A8 /* SwiftCustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCustomFramework.h; sourceTree = "<group>"; };
@@ -102,7 +100,7 @@
 			children = (
 				E7A7F8C12763A3C0001F777F /* Extension */,
 				E7A7F8C82763A3C0001F777F /* Notification */,
-				E7A7F8CB2763A3C0001F777F /* SwiftDocumentationTemplate.swift */,
+				E7CCF7B627675E4400F20A7B /* Documentation */,
 				E7A7F8CC2763A3C0001F777F /* Custom */,
 			);
 			path = Utility;
@@ -120,10 +118,10 @@
 		E7A7F8C22763A3C0001F777F /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E7A7F8C62763A3C0001F777F /* UIAlertController.swift */,
+				E7A7F8C52763A3C0001F777F /* UIScreen.swift */,
 				E7A7F8C32763A3C0001F777F /* UIView.swift */,
 				E7A7F8C42763A3C0001F777F /* UIViewController.swift */,
-				E7A7F8C52763A3C0001F777F /* UIScreen.swift */,
-				E7A7F8C62763A3C0001F777F /* UIAlertController.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -140,9 +138,10 @@
 		E7A7F8CC2763A3C0001F777F /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				E7A7F8CF2763A3C0001F777F /* Debugging.swift */,
+				E7A7F8D62763A3C0001F777F /* NSAttributedStringTransformer.swift */,
 				E7A7F8CD2763A3C0001F777F /* Operators.swift */,
 				E7A7F8CE2763A3C0001F777F /* Types.swift */,
-				E7A7F8CF2763A3C0001F777F /* Debugging.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -176,13 +175,12 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		E7A7F8D42763A3C0001F777F /* Model */ = {
+		E7CCF7B627675E4400F20A7B /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
-				E7A7F8D52763A3C0001F777F /* DataController.swift */,
-				E7A7F8D62763A3C0001F777F /* NSAttributedStringTransformer.swift */,
+				E7A7F8CB2763A3C0001F777F /* SwiftComments.swift */,
 			);
-			path = Model;
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 		E7EC0A532761013800D652A8 = {
@@ -209,7 +207,6 @@
 			isa = PBXGroup;
 			children = (
 				E7A7F8D22763A3C0001F777F /* Controller */,
-				E7A7F8D42763A3C0001F777F /* Model */,
 				E7A7F8D32763A3C0001F777F /* Resources */,
 				E7A7F8C02763A3C0001F777F /* Utility */,
 				E7A7F8D02763A3C0001F777F /* View */,
@@ -403,10 +400,9 @@
 				E7A7F8DD2763A3C0001F777F /* Notification.swift in Sources */,
 				E7A7F8D82763A3C0001F777F /* UIViewController.swift in Sources */,
 				E7A7F8D92763A3C0001F777F /* UIScreen.swift in Sources */,
-				E7A7F8DE2763A3C0001F777F /* SwiftDocumentationTemplate.swift in Sources */,
+				E7A7F8DE2763A3C0001F777F /* SwiftComments.swift in Sources */,
 				E7A7F8E02763A3C0001F777F /* Types.swift in Sources */,
 				E7A7F8E12763A3C0001F777F /* Debugging.swift in Sources */,
-				E7A7F8E22763A3C0001F777F /* DataController.swift in Sources */,
 				E7A7F8DA2763A3C0001F777F /* UIAlertController.swift in Sources */,
 				E7A7F8E32763A3C0001F777F /* NSAttributedStringTransformer.swift in Sources */,
 			);

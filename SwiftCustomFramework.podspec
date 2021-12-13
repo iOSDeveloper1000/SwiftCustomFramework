@@ -19,11 +19,10 @@ Pod::Spec.new do |spec|
 
     spec.framework = "UIKit"
 
-    spec.source_files = "RWPickFlavor/**/*.{swift}"
-    spec.ios.source_files = 'SwiftCustomFramework/Utility/*/{.,*}/*.swift'
+    spec.source_files = "SwiftCustomFramework/Utility/**/{.,*}/*.swift"
     spec.exclude_files = "SwiftCustomFramework/Utility/Documentation"
 
-    # spec.resources = "**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+    # spec.resources = "SwiftCustomFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
     spec.swift_version = "5.3"
 

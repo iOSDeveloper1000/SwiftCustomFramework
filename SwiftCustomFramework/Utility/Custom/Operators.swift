@@ -15,7 +15,7 @@ import Foundation
  Custom postfix operator for localized strings -- shortcut notation.
  */
 postfix operator ~
-postfix func ~(string: String) -> String {
+public postfix func ~(string: String) -> String {
     return NSLocalizedString(string, comment: "")
 }
 
@@ -24,7 +24,7 @@ postfix func ~(string: String) -> String {
  Custom infix operator for localized strings with exactly one placeholder -- shortcut notation.
  */
 infix operator ~
-func ~(string: String, insert: String) -> String {
+public func ~(string: String, insert: String) -> String {
     let localized = NSLocalizedString(string, comment: "")
 
     return String.localizedStringWithFormat(localized, insert)

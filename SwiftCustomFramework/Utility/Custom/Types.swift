@@ -13,6 +13,13 @@ import Foundation
  Message type representing a title and a body.
  */
 public struct Message {
-    let title: String
-    let body: String
+
+    public let title: String
+    public let body: String
+
+    public init(title: String, body: String) {
+        self.title = title
+        self.body = body
+    }
+
 }

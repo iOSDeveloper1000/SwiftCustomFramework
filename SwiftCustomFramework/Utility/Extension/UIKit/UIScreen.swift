@@ -9,7 +9,7 @@
 import UIKit
 
 
-extension UIScreen {
+public extension UIScreen {
 
     /**
      Return true if device orientation is portrait otherwise false
@@ -18,7 +18,7 @@ extension UIScreen {
      - Parameter for: If not nil uses this parameter for determining orientation.
      - Returns: Boolean value true if device is in portrait mode otherwise false.
      */
-    public static func isDeviceOrientationPortrait(for screenSize: CGSize? = nil) -> Bool {
+    static func isDeviceOrientationPortrait(for screenSize: CGSize? = nil) -> Bool {
 
         if let screenSize = screenSize {
             return screenSize.height > screenSize.width
@@ -30,7 +30,7 @@ extension UIScreen {
     /**
      The length of the shorter screen edge.
      */
-    public static var lengthShortEdge: CGFloat {
+    static var lengthShortEdge: CGFloat {
         min(main.bounds.width, main.bounds.height)
     }
 }

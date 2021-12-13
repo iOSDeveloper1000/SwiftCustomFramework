@@ -9,7 +9,7 @@
 import UIKit
 
 
-extension UIView {
+public extension UIView {
 
     /**
      Make this view's frame fill the bounds of its superview according to the view hierarchy
@@ -20,7 +20,7 @@ extension UIView {
      view.fillSuperview()
      ```
      */
-    public func fillSuperview() {
+    func fillSuperview() {
         guard let superview = self.superview else { return }
 
         translatesAutoresizingMaskIntoConstraints = superview.translatesAutoresizingMaskIntoConstraints

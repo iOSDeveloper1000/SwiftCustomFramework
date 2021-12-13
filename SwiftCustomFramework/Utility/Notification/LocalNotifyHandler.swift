@@ -26,18 +26,24 @@ import UserNotifications
  handler.removePendingNotification(id: UUID)
  ```
 */
-class LocalNotifyHandler {
+public class LocalNotifyHandler {
 
     // MARK: - Properties
 
+    /**
+     Singleton for external use of the handler.
+     */
     static let shared = LocalNotifyHandler()
 
+    /**
+     List of active local notifications managed by this handler.
+     */
     var notifications = [Notification]()
 
     private init() { }
 
 
-    // MARK: - Public Methods
+    // MARK: - Public API
 
     /**
      Conveniently schedules a new notification or reschedules an existing notification.
@@ -47,7 +53,7 @@ class LocalNotifyHandler {
      - Parameter body: The body string to be used for the notification.
      - Parameter dateTime: DateComponents to will be used as a trigger condition.
      */
-    func convenienceSchedule(uuid: String, body: String, dateTime: DateComponents) {
+    public func convenienceSchedule(uuid: String, body: String, dateTime: DateComponents) {
 
         let notification = Notification(id: uuid, body: body, dateTime: dateTime)
 
@@ -61,7 +67,7 @@ class LocalNotifyHandler {
 
      A notification with an existing ID will remove the former entry.
     */
-    func addNewNotification(_ notification: Notification) {
+    public func addNewNotification(_ notification: Notification) {
         notifications = notifications.filter({ $0.id != notification.id })
         notifications.append(notification)
     }
@@ -73,7 +79,7 @@ class LocalNotifyHandler {
      A non-existing ID won't have an effect.
      - Parameter uuid: The UUID to identify the notification that will be removed.
     */
-    func removePendingNotification(uuid: String) {
+    public func removePendingNotification(uuid: String) {
         // Remove from unscheduled notifications
         notifications = notifications.filter({ $0.id != uuid })
 
@@ -84,7 +90,7 @@ class LocalNotifyHandler {
     /**
      Prints all the scheduled notifications.
      */
-    func listScheduledNotifications() {
+    public func listScheduledNotifications() {
         UNUserNotificationCenter.current().getPendingNotificationRequests { (notifications) in
             for notification in notifications {
                 print(notification)
@@ -97,7 +103,7 @@ class LocalNotifyHandler {
 
      In case of pending authorization status user will be requested to authorize.
     */
-    func schedule() {
+    public func schedule() {
         UNUserNotificationCenter.current().getNotificationSettings { (settings) in
             switch settings.authorizationStatus {
             case .notDetermined:
@@ -111,7 +117,7 @@ class LocalNotifyHandler {
     }
 
 
-    // MARK: - Private
+    // MARK: - Helpers
 
     private func requestAuthorization() {
         UNUserNotificationCenter.current().requestAuthorization(options: [.badge, .sound, .alert]) { (granted, error) in

@@ -11,7 +11,7 @@ import Foundation
 
 // MARK: Basic Type Extensions
 
-extension Bool {
+public extension Bool {
 
     /**
      Executes a boolean XOR operation.

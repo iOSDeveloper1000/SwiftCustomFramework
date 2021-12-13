@@ -9,7 +9,7 @@
 import UIKit
 
 
-extension UIViewController {
+public extension UIViewController {
 
     // MARK: - Alert
 
@@ -23,7 +23,7 @@ extension UIViewController {
      - Parameter actionStyles: Styles for all the actions.
      - Parameter actions: Closures that will be called for the different actions.
      */
-    public func alertUser(msg: Message, alertStyle: UIAlertController.Style, actionTitles: [String], actionStyles: [UIAlertAction.Style], actions: [((UIAlertAction) -> Void)?]) {
+    func alertUser(msg: Message, alertStyle: UIAlertController.Style, actionTitles: [String], actionStyles: [UIAlertAction.Style], actions: [((UIAlertAction) -> Void)?]) {
 
         let alertController = UIAlertController(title: msg.title, message: msg.body, preferredStyle: alertStyle)
         

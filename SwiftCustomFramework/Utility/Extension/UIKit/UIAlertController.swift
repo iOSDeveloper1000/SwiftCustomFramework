@@ -9,7 +9,7 @@
 import UIKit
 
 
-extension UIAlertController {
+public extension UIAlertController {
 
     /**
      Workaround for the enduring iOS bug with actionsheets described here: https://stackoverflow.com/a/58666480

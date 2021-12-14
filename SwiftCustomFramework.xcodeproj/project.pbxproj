@@ -160,20 +160,6 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		E7A7F8D22763A3C0001F777F /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E7A7F8D32763A3C0001F777F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		E7CCF7B627675E4400F20A7B /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,8 +191,6 @@
 		E7EC0A5F2761013800D652A8 /* SwiftCustomFramework */ = {
 			isa = PBXGroup;
 			children = (
-				E7A7F8D22763A3C0001F777F /* Controller */,
-				E7A7F8D32763A3C0001F777F /* Resources */,
 				E7A7F8C02763A3C0001F777F /* Utility */,
 				E7A7F8D02763A3C0001F777F /* View */,
 				E7EC0A602761013800D652A8 /* SwiftCustomFramework.h */,

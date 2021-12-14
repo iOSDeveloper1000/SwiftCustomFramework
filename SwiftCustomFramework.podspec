@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
     spec.summary = "Providing utility for developing new iOS apps"
     spec.requires_arc = true
 
-    spec.version = "0.1.0"
+    spec.version = "0.2.0"
 
     spec.license = { :type => "MIT", :file => "LICENSE" }
 
